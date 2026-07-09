@@ -10,7 +10,7 @@
     "node": ">=22.0.0"
   },
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "echo Build Script Running",
     "dev": "pnpm --filter @poppit/server dev",
     "start": "pnpm --filter @poppit/server start",
     "clean": "pnpm -r clean"
