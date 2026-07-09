@@ -26,4 +26,4 @@ if (result.status !== 0) {
 console.log("==================================");
 console.log("Poppit Build Finished");
 console.log("==================================");
-console.log(`🚀 Server running on port ${PORT}`);
+console.log(`🚀 Server running on port `);
