@@ -4,3 +4,5 @@ packages:
   - "packages/infrastructure/*"
   - "packages/solutions/*"
   - "packages/themes/*"
+allowBuilds:
+  esbuild: true
