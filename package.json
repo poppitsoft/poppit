@@ -10,15 +10,12 @@
     "node": ">=22.0.0"
   },
   "scripts": {
-  "build": "turbo run build",
-  "dev": "turbo run dev",
-  "start": "pnpm --filter @poppit/server start",
-  "lint": "turbo run lint",
-  "typecheck": "turbo run typecheck",
-  "clean": "turbo run clean"
-},
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @poppit/server dev",
+    "start": "pnpm --filter @poppit/server start",
+    "clean": "pnpm -r clean"
+  },
   "devDependencies": {
-    "turbo": "^2.5.6",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
