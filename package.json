@@ -10,11 +10,11 @@
     "node": ">=22.0.0"
   },
   "scripts": {
-    "build": "./node_modules/.bin/tsc --version",
-    "dev": "pnpm --filter @poppit/server dev",
-    "start": "pnpm --filter @poppit/server start",
-    "clean": "pnpm -r clean"
-  },
+  "build": "node scripts/build.mjs",
+  "dev": "pnpm --filter @poppit/server dev",
+  "start": "pnpm --filter @poppit/server start",
+  "clean": "pnpm -r clean"
+},
   "devDependencies": {
     "typescript": "^5.9.3"
   }
